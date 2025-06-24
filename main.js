@@ -1,41 +1,41 @@
-prompt("Task 1");
+alert("Task 1");
 const name = prompt("What's your name?");
-alert(`Hi, ${name}`);*/
+alert(`Hi, ${name}`);
 
-prompt("Task 2");
+alert("Task 2");
 const year = 2025;
 birth_year = prompt("Enter your birth year:");
 age = year - birth_year;
 alert(`Your age is ${age}`);
 
-prompt("Task 3");
+alert("Task 3");
 square_side = prompt("Enter the length of the side of a square:");
 perimeter = 4 * square_side;
 alert(`The perimeter of square is ${perimeter}`);
 
-prompt("Task 4");
+alert("Task 4");
 radius = prompt("Enter the radius of circle:");
 area = Math.PI * radius ** 2;
 alert(`The area of circle is ${area}`);
 
-prompt("Task 5");
+alert("Task 5");
 distance = prompt("Enter the distance between cities:");
 time = prompt("Enter the time you want to get to another city:");
 speed = distance / time;
 alert(`Your speed should be ${speed} km/h or higher.`);
 
-prompt("Task 6");
+alert("Task 6");
 const euro = 0.86;
 dollars = prompt("Enter the quantity of dollars:");
 result = dollars * euro;
 alert(`The amount is ${result}`);
 
-prompt("Task 7");
+alert("Task 7");
 storage_capacity = prompt("Enter storage capacity");
 quantity = Math.floor(storage_capacity * 1024 / 820);
 alert(`You can download file ${quantity} times`);
 
-prompt("Task 8");
+alert("Task 8");
 money = prompt("Enter an amount of money you have:");
 chocolate_price = prompt("Enter a price of one chocolate bar:");
 quantity_1 = money / chocolate_price;
@@ -44,7 +44,7 @@ rest = quantity_1 - quantity_2;
 alert(`You can buy ${quantity_2} chocolate bars`);
 alert(`Your rest is ${rest}`);
 
-prompt("Task 9");
+alert("Task 9");
 result = 0;
 number = prompt("Enter 3-digit number:");
 result += number % 10 * 100;
@@ -52,9 +52,9 @@ number -= number % 10;
 result += number % 100;
 number -= number % 100;
 result += number / 100;
-alert(`Palindrome of your number is ${result}.`);*/
+alert(`Palindrome of your number is ${result}.`);
 
-prompt("Task 10");
+alert("Task 10");
 integer = prompt("Enter an integer:");
 isEven = integer % 2 === 0;
 result = (isEven && "even") || "odd";
